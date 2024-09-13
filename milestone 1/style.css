@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #007bff;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    color: #343a40;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    color: #343a40;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #495057;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    color: #495057;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
